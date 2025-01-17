@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #642C9D;
+}
+.color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: lightgray;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+.history {
+    margin-top: 20px;
+    text-align: center;
+}
+.history ul {
+    list-style: none;
+    padding: 0;
+}
+.history li {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+}
+.history li:hover {
+    transform: scale(1.2);
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #642C9D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    background-color: #642C9D;
+    transform: scale(1.05);
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 2px solid #642C9D; /* Cor do tema para o contorno */
+    border-radius: 8px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Margem ao redor */
+    background-color: #ffffff; /* Fundo branco para contraste */
+    max-width: 600px; /* Limitar a largura para layouts melhores */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: left; /* Alinhar conteúdo à esquerda */
+}
+
+legend {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    color: #642C9D; /* Cor do tema */
+    padding: 0 10px; /* Espaçamento interno */
+    background-color: #f4f4f4; /* Fundo contrastante */
+    border-radius: 4px; /* Borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interatividade com Troca de Cor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Interatividade com Troca de Cor</h1>
+    <fieldset>
+        <legend>Configurações de Cor</legend>
+        <label for="elementSelector">Escolha o elemento:</label>
+        <select id="elementSelector" title="Selecione o elemento para trocar a cor">
+            <option disabled selected>-- Selecione uma opção --</option>
+            <option value="color-box">Caixa de Cor</option>
+            <option value="body">Fundo da Página</option>
+        </select>
+    </fieldset>    
+    <div class="color-box" id="colorBox">Clique no botão</div>
+    <button id="changeColorButton">Mudar Cor</button>
+    <button id="resetButton">Redefinir</button>
+    <button id="toggleRandomMode">Modo Aleatório: Desligado</button>
+    <div class="history">
+        <h3>Histórico de Cores</h3>
+        <ul id="colorHistory"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
